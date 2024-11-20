@@ -1,6 +1,8 @@
 
 # 토큰 길이와 문장 길이
 > 토크나이저: kogpt2 tokenizer
+
+
 ![image](https://github.com/user-attachments/assets/e9a93e9a-abf2-4966-a275-1529435526bf)
 
 - train
