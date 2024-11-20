@@ -1,0 +1,9 @@
+model/
+__pycache__/
+*.pvc
+*.pyo
+*.pyd
+*.tar
+*.log
+.envLib/
+Lib/
