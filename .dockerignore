@@ -1,0 +1,8 @@
+*pvc
+__pycache__/
+.git
+pyvenv.cfg
+Include/
+Lib/
+Scripts/
+share/
