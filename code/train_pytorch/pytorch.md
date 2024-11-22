@@ -29,13 +29,12 @@ return {
 }
 ```
 2. DataLoader 구성
-
-train, valid batch = 32,32
-
-3. 학습 파라미터 설정
-num_epochs = 5
-
 ```python
+train, valid batch = 32,32
+```
+3. 학습 파라미터 설정
+```python
+num_epochs = 5
 optimizer = AdamW(model.parameters(), lr=5e-5)  # 옵티마이저 정의
 scheduler = get_linear_schedule_with_warmup(optimizer,
                                             num_warmup_steps=0,
