@@ -1,6 +1,6 @@
 # results
 - ovqa batch(16)_kaggle_pytorch2_v2
-- 따로 질문부분 마스킹하지 않았음
+  따로 질문부분 마스킹하지 않았음
   ```python
   def preprocess_training_examples(examples):
     max_length=256
